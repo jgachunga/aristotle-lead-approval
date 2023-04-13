@@ -10,10 +10,10 @@ import { LeadsModule } from './leads/leads.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '178.62.47.80',
       port: 3306,
-      username: 'root',
-      password: '',
+      username: 'gachunga',
+      password: 'mypass',
       database: 'aristotle',
       entities: [Lead, MatchReason],
       synchronize: true,
